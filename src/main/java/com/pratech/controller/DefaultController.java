@@ -8,7 +8,7 @@ public class DefaultController {
 
     @RequestMapping("/")
     public String dashboard(){
-        return "index.html";
+        return "dashboard.html";
     }
 
     @RequestMapping("/login")
