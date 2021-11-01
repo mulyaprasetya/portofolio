@@ -15,5 +15,10 @@ public class DefaultController {
     public String login(){
         return "loginPage.html";
     }
+    
+    @RequestMapping("/test")
+    public String tes() {
+    	return "index.html";
+    }
 
 }
